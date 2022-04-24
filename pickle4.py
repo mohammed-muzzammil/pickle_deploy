@@ -6,7 +6,7 @@ import os
 st.title("Salary prediction model with pickle")
 
 # "/app/{repository name}/ {file.extension}"
-Pkl_Filename = "/app/pickle_demo_streamlit/Model.pkl"
+Pkl_Filename = "/app/pickle_deploy/Model.pkl"
 
 # Import the machine learning model using pickle
 with open(Pkl_Filename, 'rb') as f:
